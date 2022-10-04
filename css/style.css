@@ -1,0 +1,16 @@
+*{
+    margin: 0;
+}
+body{
+    font-family: candara;
+}
+header{
+    height: 80px;
+    background-color: rgb(233, 73, 73);
+}
+.container{
+    margin-top: auto;
+}
+.logo{
+    margin-top: auto;
+}
