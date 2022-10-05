@@ -5,12 +5,56 @@ body{
     font-family: candara;
 }
 header{
+    color: rgb(0, 0, 0);
     height: 80px;
-    background-color: rgb(233, 73, 73);
+    background-color: rgb(255, 222, 5);
+    
 }
-.container{
-    margin-top: auto;
+.pai{
+    width: 450px;
+    
 }
-.logo{
-    margin-top: auto;
+.filho{
+    padding-left: 10px;
+    text-align: center;
+    padding-top: 20px;
+}
+.box-model{
+    height: 90vh;
+    background-color: rgb(14, 14, 15);
+    
+}
+.box{
+border-radius: 40px;
+position: relative;
+top: 25px;
+margin: auto;
+background-color: rgb(255, 222, 5);
+width: 500px;
+height: 550px;
+
+}
+.Titulo{
+    padding: 20px;
+    border-bottom: solid 1px;
+    text-align: center;
+}
+.input-pai{
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+input{
+    padding: 8px;
+    margin: 8px;
+}
+h4{
+    margin-left: 12px;
+}
+button{
+    padding: 10px;
+    margin-top: 5px;
+    left: 68px;
+    position: relative;
 }
